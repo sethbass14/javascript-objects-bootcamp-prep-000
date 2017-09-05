@@ -3,12 +3,12 @@ var playlist = {Micheal Jackson: "Beat It",
                 EWF: "September"
 }
 
-function updatePlaylist(list, artist, song) {
+function updatePlaylist(playlist, artistName, songTitle) {
   list.artist = 'song';
   return list
 }
 
-function removeFromPlaylist(list, artist){
+function removeFromPlaylist(playlist, artistName){
   delete list.artist;
   return list
 }
