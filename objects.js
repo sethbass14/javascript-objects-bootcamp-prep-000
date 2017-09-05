@@ -1,5 +1,5 @@
-var playlist = {Micheal Jackson: "Beat It",
-                Steely Dan: "Peg",
+var playlist = {Micheal_Jackson: "Beat It",
+                Steely_Dan: "Peg",
                 EWF: "September"
 }
 
