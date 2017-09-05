@@ -4,11 +4,11 @@ var playlist = {Micheal Jackson: "Beat It",
 }
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  list.artist = 'song';
-  return list
+  playlist.artistName = songTitle;
+  return playlist
 }
 
 function removeFromPlaylist(playlist, artistName){
-  delete list.artist;
-  return list
+  delete playlist.artistName;
+  return playlist
 }
